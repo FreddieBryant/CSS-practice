@@ -9,8 +9,22 @@ body {
 }
 
 a[target="_blank"] {
+  /* selects elements that have a target="_blank" attribute */
 }
 
 a[href*="google"] {
   color: orange;
+  /* checks for the existence of the work google */
+}
+
+a[href^="https"] {
+  /* if attribute starts with a given value  */
+}
+
+a[href$="https"] {
+  /* if attribute ends with given value */
+}
+
+a[href^="https"][href$=".com"] {
+  /* if starts with https and ends with .com  */
 }
