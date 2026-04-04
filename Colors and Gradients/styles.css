@@ -1,0 +1,27 @@
+body {
+  margin: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(245, 245, 66, 0.5);
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, dodgerblue, yellow 90%);
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: #240009;
+  background: linear-gradient(
+    90deg,
+    rgba(36, 0, 9, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(255, 0, 85, 1) 100%
+  );
+}
