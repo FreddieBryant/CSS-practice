@@ -1,0 +1,18 @@
+body {
+  margin: 10px;
+}
+
+.container {
+  display: grid;
+  /* 3 x 2 */
+  grid-template: 100px auto 100px / 30fr 70fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  gap: 1rem;
+  border: 3px solid gray;
+  height: 100vh;
+}
+
+.box {
+  background-color: gold;
+}
