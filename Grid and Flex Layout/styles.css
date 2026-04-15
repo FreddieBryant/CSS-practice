@@ -15,3 +15,34 @@ body {
   line-height: 1.6;
   color: #333;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-right: 1px solid #ddd;
+}
+
+main {
+  grid-area: main;
+  padding: 2rem;
+}
+
+footer {
+  grid-area: footer;
+}
