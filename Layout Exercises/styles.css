@@ -87,3 +87,16 @@ nav a {
   font-size: 1.6rem;
   font-weight: bold;
 }
+
+@media screen and (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  nav {
+    padding: 1rem 5rem;
+  }
+}
