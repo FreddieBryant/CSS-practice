@@ -4,6 +4,7 @@
     url("fonts/open-sans/opensans-bold-webfont.woff") format("woff");
   font-weight: bold;
   font-style: normal;
+  font-display: fallback;
 }
 
 @font-face {
@@ -12,12 +13,13 @@
     url("fonts/open-sans/opensans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: fallback;
 }
 
 body {
   margin: 10px;
   font-family: "opensans", Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: NORMAL;
 }
 
 h1 {
@@ -25,7 +27,7 @@ h1 {
 }
 
 p {
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 1rem;
   color: #444;
 }
