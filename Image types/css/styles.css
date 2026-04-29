@@ -1,11 +1,49 @@
+.bg-dishes,
+.bg-landing,
+.bg-rocketship,
+.bg-saturn,
+.bg-ufo {
+  display: inline-block;
+  background: url("../images/css-sprites.png") no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  text-align: left;
+}
+
+.bg-dishes {
+  background-position: -0px -0px;
+  width: 100px;
+  height: 100px;
+}
+.bg-landing {
+  background-position: -100px -0px;
+  width: 100px;
+  height: 100px;
+}
+.bg-rocketship {
+  background-position: -0px -100px;
+  width: 100px;
+  height: 100px;
+}
+.bg-saturn {
+  background-position: -100px -100px;
+  width: 100px;
+  height: 100px;
+}
+.bg-ufo {
+  background-position: -0px -200px;
+  width: 100px;
+  height: 100px;
+}
+
 body {
   margin: 10px;
-  background: url(../images/bg-sanfrancisco.jpg);
-  background-repeat: no-repeat;
+  /* background: url(../images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat; */
   /* background-position: 100% 100px; */
-  background-size: cover;
+  /* background-size: cover;
   background-attachment: fixed;
-  height: 300vh;
+  height: 300vh; */
 }
 
 /* .meal {
