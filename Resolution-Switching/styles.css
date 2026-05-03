@@ -2,6 +2,7 @@ body {
   margin: 10px;
 }
 
-/* .meal {
-  
-} */
+.meal {
+  width: 100%; /* Or whatever width fits your design */
+  height: auto;
+}
