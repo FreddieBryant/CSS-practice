@@ -34,6 +34,9 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: ease-out;
   animation-direction: alternate;
+  animation: pop 4s ease-out;
+  /* shorthand gives you place holders so you do not have to remember the order */
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   /* transition: transform 0.5s, background 0.5s; */
   /* linear is the default setting */
 }
